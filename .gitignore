@@ -1,11 +1,13 @@
-# Loại bỏ thư mục môi trường ảo
+# Bỏ qua các file audio nặng
+*.mp3
+*.wav
+*.m4a
+*.flac
+
+# Bỏ qua thư mục tải về (nếu bạn đặt tên là downloads hoặc output)
+downloads/
+output/
+
+# Môi trường ảo
 venv/
 .venv/
-env/
-ENV/
-
-# Các file cấu hình python
-pyvenv.cfg
-bin/
-lib/
-include/
